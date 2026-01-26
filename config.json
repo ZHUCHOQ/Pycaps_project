@@ -1,0 +1,16 @@
+{
+  "input": "video.mp4",
+  "output": "video_with_subs.mp4",
+  "css": "styles.css",
+  "layout": {
+    "max_number_of_lines": 2
+  },
+  "animations": [
+    {
+      "type": "fade_in",
+      "when": "narration-starts",
+      "what": "segment",
+      "duration": 0.3
+    }
+  ]
+}
